@@ -4,7 +4,7 @@ var app = express();//Respond with "hello world" for requests that hit our root 
 
 app.get('/', function (req, res) { 
 
- res.send('This is a Dockerhub repository '); 
+ res.send('This is a Deployable '); 
 
 });//listen to port 3000 by default 
 
